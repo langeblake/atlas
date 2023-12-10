@@ -13,7 +13,7 @@ export const Logo = () => {
     <Link href="/">
       <div className="hover:opacity-75 transition items-center gap-x-2 hidden md:flex">
         <Image
-          src="/Action Atlas-logos_black.png"
+          src="/Atlas-logos_black.png"
           alt="Logo"
           height={30}
           width={30}
