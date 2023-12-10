@@ -1,7 +1,7 @@
 import Link from "next/link";
 import localFont from "next/font/local";
 import { Poppins } from "next/font/google";
-import { Medal } from "lucide-react"
+import { Medal } from "lucide-react";
 
 import { cn } from "@/lib/utils"; 
 import { Button } from "@/components/ui/button";
@@ -47,7 +47,7 @@ const MarketingPage = () => {
             "text-sm md:text-xl text-neutral-400 mt-4 max-w-xs md:max-w-2xl text-center mx-auto",
             textFont.className, 
             )}>
-            Collaborate, manage projects, and achieve new levels of productivity. From high rises to the home office, your team's work style is distinct - accomplish it all with Atlas.
+            Collaborate, manage projects, and achieve new levels of productivity. From high rises to the home office, your team&apos;s work style is distinct - accomplish it all with Atlas.
         </div>
         <Button className="mt-6" size="lg" asChild>
             <Link href="/sign-up">
