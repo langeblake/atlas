@@ -13,8 +13,8 @@ export const metadata: Metadata = {
   description: siteConfig.description,
   icons: [
     {
-      url: "/Action Atlas-logos_white.png",
-      href: "/Action Atlas-logos_white.png"
+      url: "/Atlas-logos_white.png",
+      href: "/Atlas-logos_white.png"
     }
   ]
 }
