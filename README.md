@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Atlas
 
-## Getting Started
+This app is a comprehensive project management tool that replicates the core functionalities of the popular Trello application. It is designed to streamline organization and collaboration in teams, offering a range of features for task management and planning.
 
-First, run the development server:
+## Key Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Authentication (Auth)**: Secure user authentication system.
+- **Organizations / Workspaces**: Ability to create and manage separate workspaces for different teams or projects.
+- **Board Creation**: Users can create multiple boards within each organization or workspace.
+- **Unsplash API Integration**: Automatically fetches random, beautiful cover images for boards from Unsplash.
+- **Activity Log**: Tracks and logs activities for the entire organization, providing an audit trail of actions.
+- **Board Management**: Users can rename and delete boards.
+- **List Creation and Management**: 
+  - Create lists for organizing tasks and projects.
+  - Rename, delete, reorder, and copy lists with drag & drop functionality.
+- **Card Features**: 
+  - Create cards for specific tasks or notes.
+  - Add descriptions, rename, delete, reorder, and copy cards.
+  - Drag & drop support for easy reorganization.
+  - Dedicated activity log for each card.
+- **Board Limits**: Set limits on the number of boards each organization can have.
+- **Stripe Subscription Integration**: Enables organizations to subscribe and unlock unlimited boards.
+- **Landing Page**: A beautifully designed landing page for the application.
+- **Database and ORM**: Utilizes MySQL for database management and Prisma as the ORM (Object-Relational Mapping) tool.
+- **UI Design**: Built with shadcnUI & TailwindCSS for a responsive and modern user interface.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Frontend**: React, Next.js
+- **Backend**: Next.js MySQL, Prisma ORM
+- **Authentication**: Clerk
+- **UI Design**: shadcnUI & TailwindCSS
+- **Payment Processing**: Stripe API
+- **Other APIs**: Unsplash API
 
-## Learn More
+## About the Project
 
-To learn more about Next.js, take a look at the following resources:
+This application was built to emulate the functionality of Trello, focusing on real-world application development with robust features.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
