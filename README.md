@@ -28,7 +28,7 @@ This app is a comprehensive project management tool that replicates the core fun
 ## Technologies Used
 
 - **Frontend**: React, Next.js
-- **Backend**: Next.js MySQL, Prisma ORM
+- **Backend**: Next.js, MySQL, Prisma ORM
 - **Authentication**: Clerk
 - **UI Design**: shadcnUI & TailwindCSS
 - **Payment Processing**: Stripe API
