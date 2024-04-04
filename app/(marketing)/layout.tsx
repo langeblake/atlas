@@ -9,7 +9,7 @@ const MaketingLayout = ({
   return (
     <div className="h-full bg-gradient-to-r from-cyan-500 to-blue-500 ">
         <Navbar />
-        <main className="pt-32 pb-20">
+        <main className="pt-44 pb-20">
             {children}
         </main>
         <Footer />
