@@ -1,6 +1,6 @@
 # Atlas
 
-This app is a comprehensive project management tool that replicates the core functionalities of the popular Trello application. It is designed to streamline organization and collaboration in teams, offering a range of features for task management and planning.
+This app is a comprehensive project management tool designed to streamline organization and collaboration in teams, offering a range of features for task management and planning.
 
 ## Key Features
 
@@ -21,7 +21,7 @@ This app is a comprehensive project management tool that replicates the core fun
 - **Board Limits**: Set limits on the number of boards each organization can have.
 - **Stripe Subscription Integration**: Enables organizations to subscribe and unlock unlimited boards.
 - **Landing Page**: A beautifully designed landing page for the application.
-- **Database and ORM**: Utilizes MySQL for database management and Prisma as the ORM (Object-Relational Mapping) tool.
+- **Database and ORM**: Utilizes MySQL for database management and Prisma as the ORM tool.
 - **UI Design**: Built with shadcnUI & TailwindCSS for a responsive and modern user interface.
 
 
@@ -34,7 +34,4 @@ This app is a comprehensive project management tool that replicates the core fun
 - **Payment Processing**: Stripe API
 - **Other APIs**: Unsplash API
 
-## About the Project
-
-This application was built to emulate the functionality of Trello, focusing on real-world application development with robust features.
 
